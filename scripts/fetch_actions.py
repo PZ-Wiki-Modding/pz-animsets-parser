@@ -11,11 +11,7 @@ from util import AnimSets
 from util.AnimNode import ANIM_NODE
 
 
-OUTPUT = Path("out/performing_actions.json")
-
-
-
-if __name__ == "__main__":
+def main(output_file: Path):
     animsets_path = AnimSets.get_player_animset_path()
 
     actions_path = animsets_path / "actions"
@@ -60,5 +56,9 @@ if __name__ == "__main__":
                     "action": properties["value"]
                 })
 
-    with open(OUTPUT, "w") as f:
+    with open(output_file, "w") as f:
         json.dump(out, f, indent=4)
+
+if __name__ == "__main__":
+    OUTPUT = Path("out/performing_actions.json")
+    main(OUTPUT)
