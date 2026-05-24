@@ -1,0 +1,590 @@
+[
+    {
+        "file": "AnimalLure.xml",
+        "action": "AnimalLure"
+    },
+    {
+        "file": "AnimalPetting.xml",
+        "action": "PetAnimal"
+    },
+    {
+        "file": "ApplyAlcohol.xml",
+        "action": "ApplyAlcohol"
+    },
+    {
+        "file": "ApplyAlcohol_Sat.xml",
+        "action": "ApplyAlcohol"
+    },
+    {
+        "file": "ApplyGlaze.xml",
+        "action": "ApplyGlaze"
+    },
+    {
+        "file": "AttachItem_Back.xml",
+        "action": "AttachItem"
+    },
+    {
+        "file": "Bandage.xml",
+        "action": "Bandage"
+    },
+    {
+        "file": "BlowGlass.xml",
+        "action": "BlowGlass"
+    },
+    {
+        "file": "BlowTorch.xml",
+        "action": "BlowTorch"
+    },
+    {
+        "file": "Build.xml",
+        "action": "Build"
+    },
+    {
+        "file": "BuildWithBrick.xml",
+        "action": "MakeWithBrick"
+    },
+    {
+        "file": "ChangeBait.xml",
+        "action": "changeBait"
+    },
+    {
+        "file": "Chisel_Surface.xml",
+        "action": "Chisel_Surface"
+    },
+    {
+        "file": "chop_tree.xml",
+        "action": "chop_tree"
+    },
+    {
+        "file": "ChoppingBlock_Hammer.xml",
+        "action": "ChoppingBlock_Hammer"
+    },
+    {
+        "file": "Craft.xml",
+        "action": "Craft"
+    },
+    {
+        "file": "CraftArmourPiece.xml",
+        "action": "CraftArmourPiece"
+    },
+    {
+        "file": "CraftArmourPiece_Sat.xml",
+        "action": "CraftArmourPiece"
+    },
+    {
+        "file": "CraftKnifeSpear.xml",
+        "action": "CraftKnifeSpear"
+    },
+    {
+        "file": "CraftKnifeSpear_Sat.xml",
+        "action": "CraftKnifeSpear"
+    },
+    {
+        "file": "CraftWeapon1H.xml",
+        "action": "CraftWeapon1H"
+    },
+    {
+        "file": "CraftWeapon1H_Sat.xml",
+        "action": "CraftWeapon1H"
+    },
+    {
+        "file": "CraftWeapon2H.xml",
+        "action": "CraftWeapon2H"
+    },
+    {
+        "file": "CraftWeapon2H_Sat.xml",
+        "action": "CraftWeapon2H"
+    },
+    {
+        "file": "CutWire.xml",
+        "action": "CutWire"
+    },
+    {
+        "file": "defaultScythe.xml",
+        "action": "scything"
+    },
+    {
+        "file": "Destroy.xml",
+        "action": "Destroy"
+    },
+    {
+        "file": "Dig.xml",
+        "action": "Dig"
+    },
+    {
+        "file": "disassemble.xml",
+        "action": "disassemble"
+    },
+    {
+        "file": "disassembleElectrical.xml",
+        "action": "disassembleElectrical"
+    },
+    {
+        "file": "disassembleElectrical_Sat.xml",
+        "action": "disassembleElectrical"
+    },
+    {
+        "file": "DrinkBottle.xml",
+        "action": "drink"
+    },
+    {
+        "file": "DrinkTapWater.xml",
+        "action": "drink_tap"
+    },
+    {
+        "file": "DropWhileMoving.xml",
+        "action": "DropWhileMoving"
+    },
+    {
+        "file": "Eat.xml",
+        "action": "eat"
+    },
+    {
+        "file": "EquipItem.xml",
+        "action": "EquipItem"
+    },
+    {
+        "file": "ExamineVehicle.xml",
+        "action": "ExamineVehicle"
+    },
+    {
+        "file": "FillBottleFromTap.xml",
+        "action": "fill_container_tap"
+    },
+    {
+        "file": "Forage.xml",
+        "action": "Forage"
+    },
+    {
+        "file": "HammerOre.xml",
+        "action": "HammerOre"
+    },
+    {
+        "file": "HammerSmashSurface.xml",
+        "action": "HammerSmashSurface"
+    },
+    {
+        "file": "InsertBullets.xml",
+        "action": "InsertBullets"
+    },
+    {
+        "file": "Knitting.xml",
+        "action": "Knitting"
+    },
+    {
+        "file": "LightFire_NotchedPlank.xml",
+        "action": "LightFire_KnotchedPlank"
+    },
+    {
+        "file": "LightFire_NotchedPlank_Sat.xml",
+        "action": "LightFire_KnotchedPlank"
+    },
+    {
+        "file": "LoadDblBarrel.xml",
+        "action": "Reload"
+    },
+    {
+        "file": "LoadHandgun.xml",
+        "action": "Reload"
+    },
+    {
+        "file": "LoadLeverAction.xml",
+        "action": "Reload"
+    },
+    {
+        "file": "LoadRevolver.xml",
+        "action": "Reload"
+    },
+    {
+        "file": "LoadRifle.xml",
+        "action": "Reload"
+    },
+    {
+        "file": "LoadRifleNoMag.xml",
+        "action": "Reload"
+    },
+    {
+        "file": "LoadShotgun.xml",
+        "action": "Reload"
+    },
+    {
+        "file": "Loot.xml",
+        "action": "Loot"
+    },
+    {
+        "file": "LootSitting.xml",
+        "action": "Loot"
+    },
+    {
+        "file": "LootSitting.xml",
+        "action": "Loot"
+    },
+    {
+        "file": "LootSittingHigh.xml",
+        "action": "Loot"
+    },
+    {
+        "file": "LootSittingLow.xml",
+        "action": "Loot"
+    },
+    {
+        "file": "MakeChum.xml",
+        "action": "MakeChum"
+    },
+    {
+        "file": "Making.xml",
+        "action": "Making"
+    },
+    {
+        "file": "Making_Sat.xml",
+        "action": "Making"
+    },
+    {
+        "file": "MakingElectrical.xml",
+        "action": "MakingElectrical"
+    },
+    {
+        "file": "MakingElectrical_Sat.xml",
+        "action": "MakingElectrical"
+    },
+    {
+        "file": "MakingHammer_Surface.xml",
+        "action": "MakingHammer_Surface"
+    },
+    {
+        "file": "MakingJewellery.xml",
+        "action": "MakingJewellery"
+    },
+    {
+        "file": "MakingJewellery_Sat.xml",
+        "action": "MakingJewellery"
+    },
+    {
+        "file": "MedicalCheck.xml",
+        "action": "MedicalCheck"
+    },
+    {
+        "file": "MixFluids.xml",
+        "action": "MixFluids"
+    },
+    {
+        "file": "MixingBowl.xml",
+        "action": "MixingBowl"
+    },
+    {
+        "file": "MixingBowl_Sat.xml",
+        "action": "MixingBowl"
+    },
+    {
+        "file": "MixingBucket.xml",
+        "action": "MixingBucket"
+    },
+    {
+        "file": "MixingFood.xml",
+        "action": "MixingFood"
+    },
+    {
+        "file": "MixingMortarPestle.xml",
+        "action": "MixingMortarPestle"
+    },
+    {
+        "file": "OpenAmmoBox.xml",
+        "action": "OpenAmmoBox"
+    },
+    {
+        "file": "OpenAmmoBox_Sat.xml",
+        "action": "OpenAmmoBox"
+    },
+    {
+        "file": "OpenBeerBottle.xml",
+        "action": "OpenBeerBottle"
+    },
+    {
+        "file": "OpenChampagne.xml",
+        "action": "OpenChampagne"
+    },
+    {
+        "file": "OpenTinCan.xml",
+        "action": "OpenTinCan"
+    },
+    {
+        "file": "PackingBox.xml",
+        "action": "PackingBox"
+    },
+    {
+        "file": "PackSack.xml",
+        "action": "PackSack"
+    },
+    {
+        "file": "painting.xml",
+        "action": "paint"
+    },
+    {
+        "file": "PlaceAmmoInBox.xml",
+        "action": "PlaceAmmoInBox"
+    },
+    {
+        "file": "Pour.xml",
+        "action": "pour"
+    },
+    {
+        "file": "PutSeedsInPacket.xml",
+        "action": "PutSeedsInPacket"
+    },
+    {
+        "file": "Rake.xml",
+        "action": "Rake"
+    },
+    {
+        "file": "reading.xml",
+        "action": "read"
+    },
+    {
+        "file": "RefuelGasCan.xml",
+        "action": "refuelgascan"
+    },
+    {
+        "file": "RemoveBarricade.xml",
+        "action": "RemoveBarricade"
+    },
+    {
+        "file": "RemoveBarricadeCrowbar.xml",
+        "action": "RemoveBarricade"
+    },
+    {
+        "file": "RemoveBullets.xml",
+        "action": "RemoveBullets"
+    },
+    {
+        "file": "RemoveBush.xml",
+        "action": "RemoveBush"
+    },
+    {
+        "file": "RemoveCurtain.xml",
+        "action": "RemoveCurtain"
+    },
+    {
+        "file": "RipSheets.xml",
+        "action": "RipSheets"
+    },
+    {
+        "file": "RipSheets_Sat.xml",
+        "action": "RipSheets"
+    },
+    {
+        "file": "RollDice.xml",
+        "action": "RollDice"
+    },
+    {
+        "file": "SatChair.xml",
+        "action": "SatChair"
+    },
+    {
+        "file": "SawLog.xml",
+        "action": "SawLog"
+    },
+    {
+        "file": "SawOfffShotgun_Sat.xml",
+        "action": "SawOffShotgun"
+    },
+    {
+        "file": "SawOffShotgun.xml",
+        "action": "SawOffShotgun"
+    },
+    {
+        "file": "SawSmallItemMetal.xml",
+        "action": "SawSmallItemMetal"
+    },
+    {
+        "file": "ScrubClothWithSoap.xml",
+        "action": "ScrubClothWithSoap"
+    },
+    {
+        "file": "ScrubFloor.xml",
+        "action": "ScrubFloor"
+    },
+    {
+        "file": "ScrubFloor_Mop.xml",
+        "action": "ScrubFloor_Mop"
+    },
+    {
+        "file": "ScrubWall.xml",
+        "action": "ScrubWall"
+    },
+    {
+        "file": "ScrubWall_Mop.xml",
+        "action": "ScrubWall_Mop"
+    },
+    {
+        "file": "SewingCloth.xml",
+        "action": "SewingCloth"
+    },
+    {
+        "file": "SharpenBlade.xml",
+        "action": "SharpenBlade"
+    },
+    {
+        "file": "SharpenStick.xml",
+        "action": "SharpenStake"
+    },
+    {
+        "file": "SharpenStick_Sat.xml",
+        "action": "SharpenStake"
+    },
+    {
+        "file": "Shave.xml",
+        "action": "Shave"
+    },
+    {
+        "file": "Shear.xml",
+        "action": "Shear"
+    },
+    {
+        "file": "SlicingFood.xml",
+        "action": "SlicingFood"
+    },
+    {
+        "file": "SmithingHammer.xml",
+        "action": "SmithingHammer"
+    },
+    {
+        "file": "Take_Off_Rack.xml",
+        "action": "Take_Off_Rack_Mid"
+    },
+    {
+        "file": "TakeGasFromPump.xml",
+        "action": "TakeGasFromPump"
+    },
+    {
+        "file": "TakeGasFromVehicle.xml",
+        "action": "TakeGasFromVehicle"
+    },
+    {
+        "file": "TakePills.xml",
+        "action": "TakePills"
+    },
+    {
+        "file": "TanLeatherBarrel.xml",
+        "action": "TanLeatherBarrel"
+    },
+    {
+        "file": "Threshing.xml",
+        "action": "Threshing"
+    },
+    {
+        "file": "TransferItemOnSelf.xml",
+        "action": "TransferItemOnSelf"
+    },
+    {
+        "file": "Tying_High.xml",
+        "action": "Tying_High"
+    },
+    {
+        "file": "UncorkBottle.xml",
+        "action": "UncorkBottle"
+    },
+    {
+        "file": "UnequipItem.xml",
+        "action": "UnequipItem"
+    },
+    {
+        "file": "UnPackBox.xml",
+        "action": "UnPackBox"
+    },
+    {
+        "file": "UnPackBox_Sat.xml",
+        "action": "UnPackBox"
+    },
+    {
+        "file": "UnPackBox_Small_Sat.xml",
+        "action": "UnPackBox_Small"
+    },
+    {
+        "file": "UnPackSack.xml",
+        "action": "UnPackSack"
+    },
+    {
+        "file": "UnPackSack_Sat.xml",
+        "action": "UnPackSack"
+    },
+    {
+        "file": "UnPackSmallBag_Sat.xml",
+        "action": "UnPackSmallBag"
+    },
+    {
+        "file": "Untie_Mid.xml",
+        "action": "Untie_Mid"
+    },
+    {
+        "file": "Use_Ripple_Comb.xml",
+        "action": "Use_Ripple_Comb"
+    },
+    {
+        "file": "UseBandsaw.xml",
+        "action": "UseBandsaw"
+    },
+    {
+        "file": "UseGrindingSlab.xml",
+        "action": "UseGrindingSlab"
+    },
+    {
+        "file": "UseGrindingStone.xml",
+        "action": "UseGrindingStone"
+    },
+    {
+        "file": "UseHandPress.xml",
+        "action": "UseHandPress"
+    },
+    {
+        "file": "UseLathe.xml",
+        "action": "UseLathe"
+    },
+    {
+        "file": "UseSpinningWheel.xml",
+        "action": "UseSpinningWheel"
+    },
+    {
+        "file": "UseStandingDrill.xml",
+        "action": "UseStandingDrill"
+    },
+    {
+        "file": "UseStoneQuern.xml",
+        "action": "UseStoneQuern"
+    },
+    {
+        "file": "VehicleTrailer.xml",
+        "action": "VehicleTrailer"
+    },
+    {
+        "file": "VehicleWash.xml",
+        "action": "VehicleWash"
+    },
+    {
+        "file": "VehicleWorkOnMid.xml",
+        "action": "VehicleWorkOnMid"
+    },
+    {
+        "file": "VehicleWorkOnTire.xml",
+        "action": "VehicleWorkOnTire"
+    },
+    {
+        "file": "WashFace.xml",
+        "action": "WashFace"
+    },
+    {
+        "file": "WearClothingDefault.xml",
+        "action": "WearClothing"
+    },
+    {
+        "file": "WearClothingNotMoving.xml",
+        "action": "WearClothing"
+    },
+    {
+        "file": "Welding.xml",
+        "action": "Welding"
+    },
+    {
+        "file": "Welding_Sat.xml",
+        "action": "Welding"
+    }
+]
