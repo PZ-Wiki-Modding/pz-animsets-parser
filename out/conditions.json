@@ -1,0 +1,925 @@
+{
+    "$GrappledTarget.bOnFloor": {
+        "vanillaValues": [
+            "false"
+        ]
+    },
+    "$GrappledTarget.fallOnFront": {
+        "vanillaValues": [
+            "false",
+            "true"
+        ]
+    },
+    "Aim": {
+        "vanillaValues": [
+            "true",
+            "false"
+        ]
+    },
+    "AimFloorAnim": {
+        "vanillaValues": [
+            "false"
+        ]
+    },
+    "AnimalAction": {
+        "vanillaValues": [
+            "Lure"
+        ]
+    },
+    "AttachAnim": {
+        "vanillaValues": [
+            "back"
+        ]
+    },
+    "AttackFromBehind": {
+        "vanillaValues": [
+            "false",
+            "true"
+        ]
+    },
+    "AttackType": {
+        "vanillaValues": [
+            "miss",
+            "charge",
+            "default"
+        ]
+    },
+    "BandageType": {
+        "vanillaValues": [
+            "Head",
+            "LeftArm",
+            "LeftLeg",
+            "LowerBody",
+            "RightArm",
+            "RightLeg",
+            "UpperBody"
+        ]
+    },
+    "BumpDone": {
+        "vanillaValues": [
+            "true"
+        ]
+    },
+    "BumpFall": {
+        "vanillaValues": [
+            "true",
+            "false"
+        ]
+    },
+    "BumpFallType": {
+        "vanillaValues": [
+            "pushedBehind",
+            "pushedFront"
+        ]
+    },
+    "BumpType": {
+        "vanillaValues": [
+            "stagger",
+            "left"
+        ]
+    },
+    "ClimbFenceFinished": {
+        "vanillaValues": [
+            "false"
+        ]
+    },
+    "ClimbFenceOutcome": {
+        "vanillaValues": [
+            "success",
+            "falling",
+            "fail",
+            "fall",
+            "obstacle",
+            "rope"
+        ]
+    },
+    "ClimbFenceStarted": {
+        "vanillaValues": [
+            "true",
+            "false"
+        ]
+    },
+    "ClimbFenceStruggle": {
+        "vanillaValues": [
+            "false",
+            "true"
+        ]
+    },
+    "ClimbWindowGetUpBack": {
+        "vanillaValues": [
+            "true"
+        ]
+    },
+    "ClimbWindowOutcome": {
+        "vanillaValues": [
+            "back",
+            "success",
+            "fall",
+            "fallback",
+            "obstacleEnd",
+            "obstacle",
+            "rope"
+        ]
+    },
+    "ClimbWindowStarted": {
+        "vanillaValues": [
+            "true",
+            "false"
+        ]
+    },
+    "ClimbingFence": {
+        "vanillaValues": [
+            "true",
+            "false"
+        ]
+    },
+    "CloseWindowOutcome": {
+        "vanillaValues": [
+            "success",
+            "struggle"
+        ]
+    },
+    "CollideType": {
+        "vanillaValues": [
+            "wall"
+        ]
+    },
+    "CriticalHit": {
+        "vanillaValues": [
+            "true"
+        ]
+    },
+    "ExerciseEnded": {
+        "vanillaValues": [
+            "true",
+            "false"
+        ]
+    },
+    "ExerciseHand": {
+        "vanillaValues": [
+            "left"
+        ]
+    },
+    "ExerciseStarted": {
+        "vanillaValues": [
+            "true"
+        ]
+    },
+    "ExerciseType": {
+        "vanillaValues": [
+            "barbellcurl",
+            "bicepscurl",
+            "burpees",
+            "dumbbellpress",
+            "pushups",
+            "situp",
+            "squats"
+        ]
+    },
+    "Ext": {
+        "vanillaValues": [
+            "BentDouble",
+            "BridgeNose",
+            "ChewNails",
+            "Cough",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "PainHead1",
+            "PainStomach1",
+            "PainArmL",
+            "PainArmR",
+            "PainHandL",
+            "PainHandR",
+            "PainLegL",
+            "PainLegR",
+            "PainTorso",
+            "PainHead2",
+            "PainStomach2",
+            "PullAtColar",
+            "ShiftWeight",
+            "Shiver",
+            "Sneeze2",
+            "Sneeze1",
+            "TiredStretch",
+            "WipeArmR",
+            "WipeBrow",
+            "WipeHead",
+            "WipeLegL",
+            "WipeLegR",
+            "WipeTorso1",
+            "Yawn",
+            "WipeArmL",
+            "WipeTorso2"
+        ]
+    },
+    "ExtPlaying": {
+        "vanillaValues": [
+            "true"
+        ]
+    },
+    "FishingStage": {
+        "vanillaValues": [
+            "Cast",
+            "Idle",
+            "PickUp",
+            "PickUpTrash",
+            "Strike",
+            "StrikeHard",
+            "StrikeMedium"
+        ]
+    },
+    "FitnessStruggle": {
+        "vanillaValues": [
+            "true"
+        ]
+    },
+    "FoodType": {
+        "vanillaValues": [
+            "BleachBottle",
+            "Bowl",
+            "Bourbon",
+            "2handbowl",
+            "Bucket",
+            "drink",
+            "GlugFood",
+            "popcan",
+            "Pot",
+            "Saucepan",
+            "teacup",
+            "EatSmall",
+            "2hand",
+            "2handforced",
+            "bowl",
+            "can",
+            "eatBox",
+            "eatbox",
+            "plate",
+            "NoSpoon",
+            "eatOffStick",
+            "pizza",
+            "cigarettes",
+            "sniff"
+        ]
+    },
+    "FromBehind": {
+        "vanillaValues": [
+            "false",
+            "true"
+        ]
+    },
+    "GrappleThrowOutWindow": {
+        "vanillaValues": [
+            "true"
+        ]
+    },
+    "HitReaction": {
+        "vanillaValues": [
+            "Shot"
+        ]
+    },
+    "KilledByFall": {
+        "vanillaValues": [
+            "true"
+        ]
+    },
+    "LeftHandMask": {
+        "vanillaValues": [
+            "holdingangletorchleft",
+            "holdingbagleft",
+            "holdingheavytorchleft",
+            "holdingtorchleft",
+            "HoldingUmbrellaLeft",
+            "RaiseHand"
+        ]
+    },
+    "LootPosition": {
+        "vanillaValues": [
+            "High",
+            "Low"
+        ]
+    },
+    "NewCondition": {
+        "vanillaValues": [
+            "SawSmallItemMetal",
+            "heavy",
+            "firearm",
+            "handgun",
+            "anything"
+        ]
+    },
+    "OnBedAnim": {
+        "vanillaValues": [
+            "Asleep",
+            "Awake"
+        ]
+    },
+    "OnBedDirection": {
+        "vanillaValues": [
+            "Front",
+            "FootLeft",
+            "FootRight",
+            "HeadLeft",
+            "HeadRight",
+            "Foot"
+        ]
+    },
+    "OnBedStarted": {
+        "vanillaValues": [
+            "false"
+        ]
+    },
+    "OpenWindowOutcome": {
+        "vanillaValues": [
+            "fail",
+            "success",
+            "struggle"
+        ]
+    },
+    "PerformingAction": {
+        "vanillaValues": [
+            "AnimalLure",
+            "PetAnimal",
+            "ApplyAlcohol",
+            "ApplyGlaze",
+            "AttachItem",
+            "Bandage",
+            "BlowGlass",
+            "BlowTorch",
+            "Build",
+            "MakeWithBrick",
+            "changeBait",
+            "Chisel_Surface",
+            "chop_tree",
+            "ChoppingBlock_Hammer",
+            "Craft",
+            "CraftArmourPiece",
+            "CraftKnifeSpear",
+            "CraftWeapon1H",
+            "CraftWeapon2H",
+            "CutWire",
+            "scything",
+            "Destroy",
+            "Dig",
+            "disassemble",
+            "disassembleElectrical",
+            "drink",
+            "drink_tap",
+            "DropWhileMoving",
+            "eat",
+            "EquipItem",
+            "ExamineVehicle",
+            "fill_container_tap",
+            "Forage",
+            "HammerOre",
+            "HammerSmashSurface",
+            "InsertBullets",
+            "Knitting",
+            "LightFire_KnotchedPlank",
+            "Reload",
+            "Loot",
+            "MakeChum",
+            "Making",
+            "MakingElectrical",
+            "MakingHammer_Surface",
+            "MakingJewellery",
+            "MedicalCheck",
+            "MixFluids",
+            "MixingBowl",
+            "MixingBucket",
+            "MixingFood",
+            "MixingMortarPestle",
+            "OpenAmmoBox",
+            "OpenBeerBottle",
+            "OpenChampagne",
+            "OpenTinCan",
+            "PackingBox",
+            "PackSack",
+            "paint",
+            "PlaceAmmoInBox",
+            "pour",
+            "PutSeedsInPacket",
+            "Rake",
+            "read",
+            "refuelgascan",
+            "RemoveBarricade",
+            "RemoveBullets",
+            "RemoveBush",
+            "RemoveCurtain",
+            "RipSheets",
+            "RollDice",
+            "SatChair",
+            "SawLog",
+            "SawOffShotgun",
+            "SawSmallItemMetal",
+            "ScrubClothWithSoap",
+            "ScrubFloor",
+            "ScrubFloor_Mop",
+            "ScrubWall",
+            "ScrubWall_Mop",
+            "SewingCloth",
+            "SharpenBlade",
+            "SharpenStake",
+            "Shave",
+            "Shear",
+            "SlicingFood",
+            "SmithingHammer",
+            "Take_Off_Rack_Mid",
+            "TakeGasFromPump",
+            "TakeGasFromVehicle",
+            "TakePills",
+            "TanLeatherBarrel",
+            "Threshing",
+            "TransferItemOnSelf",
+            "Tying_High",
+            "UncorkBottle",
+            "UnequipItem",
+            "UnPackBox",
+            "UnPackBox_Small",
+            "UnPackSack",
+            "UnPackSmallBag",
+            "Untie_Mid",
+            "Use_Ripple_Comb",
+            "UseBandsaw",
+            "UseGrindingSlab",
+            "UseGrindingStone",
+            "UseHandPress",
+            "UseLathe",
+            "UseSpinningWheel",
+            "UseStandingDrill",
+            "UseStoneQuern",
+            "VehicleTrailer",
+            "VehicleWash",
+            "VehicleWorkOnMid",
+            "VehicleWorkOnTire",
+            "WashFace",
+            "WearClothing",
+            "Welding"
+        ]
+    },
+    "PourType": {
+        "vanillaValues": [
+            "Bourbon",
+            "bowl",
+            "Bucket",
+            "Kettle",
+            "Mug",
+            "Pot",
+            "saucepan",
+            "wateringcan"
+        ]
+    },
+    "RackAiming": {
+        "vanillaValues": [
+            "true"
+        ]
+    },
+    "RangedWeaponEmpty": {
+        "vanillaValues": [
+            "false",
+            "true"
+        ]
+    },
+    "ReadType": {
+        "vanillaValues": [
+            "book",
+            "newspaper",
+            "photo"
+        ]
+    },
+    "RemoveBarricade": {
+        "vanillaValues": [
+            "CrowbarMid"
+        ]
+    },
+    "RightHandMask": {
+        "vanillaValues": [
+            "holdingangletorchright",
+            "holdingbagright",
+            "holdingtorchright",
+            "HoldingUmbrellaRight"
+        ]
+    },
+    "SatChairStarted": {
+        "vanillaValues": [
+            "true"
+        ]
+    },
+    "ShoutType": {
+        "vanillaValues": [
+            "BlowHarmonica_secondary",
+            "BlowHarmonica_primary",
+            "BlowWhistle_secondary",
+            "BlowWhistle_primary"
+        ]
+    },
+    "SitGroundAnim": {
+        "vanillaValues": [
+            "Idle",
+            "rubhands",
+            "WarmHands"
+        ]
+    },
+    "SitOnFurnitureAnim": {
+        "vanillaValues": [
+            "Idle"
+        ]
+    },
+    "SitOnFurnitureDirection": {
+        "vanillaValues": [
+            "Front",
+            "Left",
+            "Right"
+        ]
+    },
+    "SitOnFurnitureStarted": {
+        "vanillaValues": [
+            "false"
+        ]
+    },
+    "SlowingMovement": {
+        "vanillaValues": [
+            "true"
+        ]
+    },
+    "VaultOverRun": {
+        "vanillaValues": [
+            "false",
+            "true"
+        ]
+    },
+    "VaultOverSprint": {
+        "vanillaValues": [
+            "true"
+        ]
+    },
+    "Waepon": {
+        "vanillaValues": [
+            "spear"
+        ]
+    },
+    "Weapon": {
+        "vanillaValues": [
+            "1handed",
+            "2handed",
+            "heavy",
+            "chainsaw",
+            "handgun",
+            "knife",
+            "spear",
+            "firearm",
+            "2Handed",
+            "rifle",
+            "hnadgun",
+            "Heavy",
+            "throwing",
+            "1Handed"
+        ]
+    },
+    "WeaponReloadType": {
+        "vanillaValues": [
+            "doublebarrelshotgun",
+            "handgun",
+            "leveraction",
+            "revolver",
+            "boltaction",
+            "boltactionnomag",
+            "shotgun"
+        ]
+    },
+    "WearClothingLocation": {
+        "vanillaValues": [
+            "Face",
+            "Hat",
+            "Jacket",
+            "Feet",
+            "Pullover",
+            "Waist"
+        ]
+    },
+    "aim": {
+        "vanillaValues": [
+            "true"
+        ]
+    },
+    "animal": {
+        "vanillaValues": [
+            "Cow",
+            "bull",
+            "cowcalf",
+            "chick",
+            "hen",
+            "cow",
+            "lamb",
+            "mouse",
+            "sow",
+            "piglet",
+            "rabkitten",
+            "rabbuck",
+            "rabdoe",
+            "raccoonboar",
+            "ram",
+            "rat",
+            "ewe",
+            "turkeyhen"
+        ]
+    },
+    "attackType": {
+        "vanillaValues": [
+            "miss",
+            "overhead",
+            "uppercut"
+        ]
+    },
+    "bClient": {
+        "vanillaValues": [
+            "false",
+            "true"
+        ]
+    },
+    "bDead": {
+        "vanillaValues": [
+            "true",
+            "false"
+        ]
+    },
+    "bDoContinueGrapple": {
+        "vanillaValues": [
+            "true",
+            "false"
+        ]
+    },
+    "bDoGrapple": {
+        "vanillaValues": [
+            "true"
+        ]
+    },
+    "bDoShove": {
+        "vanillaValues": [
+            "false"
+        ]
+    },
+    "bFalling": {
+        "vanillaValues": [
+            "true",
+            "false"
+        ]
+    },
+    "bGetUpFromFall": {
+        "vanillaValues": [
+            "false",
+            "true"
+        ]
+    },
+    "bHardFall": {
+        "vanillaValues": [
+            "false",
+            "true"
+        ]
+    },
+    "bHardFall2": {
+        "vanillaValues": [
+            "false",
+            "true"
+        ]
+    },
+    "bHeavyFall": {
+        "vanillaValues": [
+            "false"
+        ]
+    },
+    "bHeavyFall2": {
+        "vanillaValues": [
+            "false"
+        ]
+    },
+    "bIsGrappling": {
+        "vanillaValues": [
+            "true"
+        ]
+    },
+    "bLandLight": {
+        "vanillaValues": [
+            "true"
+        ]
+    },
+    "bLandLightMask": {
+        "vanillaValues": [
+            "false",
+            "true"
+        ]
+    },
+    "bOnFloor": {
+        "vanillaValues": [
+            "false",
+            "true"
+        ]
+    },
+    "bdoshove": {
+        "vanillaValues": [
+            "false"
+        ]
+    },
+    "beensprintingfor": {
+        "vanillaValues": [
+            "70"
+        ]
+    },
+    "bheadlookaround": {
+        "vanillaValues": [
+            "true"
+        ]
+    },
+    "emote": {
+        "vanillaValues": [
+            "shout",
+            "default"
+        ]
+    },
+    "extplaying": {
+        "vanillaValues": [
+            "true"
+        ]
+    },
+    "fallOnFront": {
+        "vanillaValues": [
+            "true"
+        ]
+    },
+    "fallSpeedSeverity": {
+        "vanillaValues": [
+            "None",
+            "Light",
+            "Hard",
+            "Severe",
+            "Lethal"
+        ]
+    },
+    "fromBehind": {
+        "vanillaValues": [
+            "false",
+            "true"
+        ]
+    },
+    "getUpQuick": {
+        "vanillaValues": [
+            "true"
+        ]
+    },
+    "getUpWalk": {
+        "vanillaValues": [
+            "false"
+        ]
+    },
+    "hasTimedActions": {
+        "vanillaValues": [
+            "true"
+        ]
+    },
+    "hitReaction": {
+        "vanillaValues": [
+            "CrawlerBite"
+        ]
+    },
+    "hitreaction": {
+        "vanillaValues": [
+            "Bite",
+            "BiteDefended",
+            "BiteLEFT",
+            "BiteRIGHT",
+            "Shot"
+        ]
+    },
+    "inTrees": {
+        "vanillaValues": [
+            "false"
+        ]
+    },
+    "intrees": {
+        "vanillaValues": [
+            "true"
+        ]
+    },
+    "isLoading": {
+        "vanillaValues": [
+            "true"
+        ]
+    },
+    "isMoving": {
+        "vanillaValues": [
+            "false",
+            "true"
+        ]
+    },
+    "isRunning": {
+        "vanillaValues": [
+            "true",
+            "false"
+        ]
+    },
+    "isSprinting": {
+        "vanillaValues": [
+            "false"
+        ]
+    },
+    "isStompAnim": {
+        "vanillaValues": [
+            "false"
+        ]
+    },
+    "isTurning90": {
+        "vanillaValues": [
+            "false"
+        ]
+    },
+    "isTurningAround": {
+        "vanillaValues": [
+            "false",
+            "true"
+        ]
+    },
+    "ismoving": {
+        "vanillaValues": [
+            "false",
+            "true"
+        ]
+    },
+    "milkAnim": {
+        "vanillaValues": [
+            "CowLLoop",
+            "CowRLoop",
+            "SheepLLoop",
+            "SheepRLoop"
+        ]
+    },
+    "milkanimalout": {
+        "vanillaValues": [
+            "true"
+        ]
+    },
+    "momentumScalar": {
+        "vanillaValues": [
+            "1",
+            "0.999"
+        ]
+    },
+    "nearWallCrouching": {
+        "vanillaValues": [
+            "false",
+            "true"
+        ]
+    },
+    "onbed": {
+        "vanillaValues": [
+            "true"
+        ]
+    },
+    "previousState": {
+        "vanillaValues": [
+            "hitreaction"
+        ]
+    },
+    "prout": {
+        "vanillaValues": [
+            "true"
+        ]
+    },
+    "sharedGrappleType": {
+        "vanillaValues": [
+            "BwdDragLegs",
+            "BwdDragLegsOnFront",
+            "BwdDragHead",
+            "BwdDragHeadOnFront"
+        ]
+    },
+    "sitonground": {
+        "vanillaValues": [
+            "true",
+            "false"
+        ]
+    },
+    "sittingonfurniture": {
+        "vanillaValues": [
+            "true"
+        ]
+    },
+    "sneaking": {
+        "vanillaValues": [
+            "false",
+            "true"
+        ]
+    },
+    "targetTwist": {
+        "vanillaValues": [
+            "0",
+            "-0.001"
+        ]
+    },
+    "twist": {
+        "vanillaValues": [
+            "0"
+        ]
+    }
+}
