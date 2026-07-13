@@ -1,4 +1,13 @@
 {
+    "": {
+        "description": "Only used when extending another AnimNode, the event name is removed since it references the extended file original event from the placement of the tag in the file. ",
+        "vanillaValues": [
+            "getUpStartedQuick=TRUE",
+            "getUpStartedQuick=FALSE",
+            "true",
+            ""
+        ]
+    },
     "AttackAnim": {
         "vanillaValues": [
             "TRUE",
@@ -8,10 +17,17 @@
     "AttackCollisionCheck": {
         "vanillaValues": [
             "MeleeSwing",
-            "Shove",
             "Shot",
+            "Bite",
+            "",
+            "Shove",
             "MeleeStab",
             "Stomp"
+        ]
+    },
+    "AttackConnect": {
+        "vanillaValues": [
+            ""
         ]
     },
     "BlockMovement": {
@@ -26,11 +42,107 @@
             "FALSE"
         ]
     },
-    "FallOnFront": {
+    "CancelKnockDown": {
         "vanillaValues": [
             "true",
-            "TRUE",
             "false"
+        ]
+    },
+    "CheckAttack": {
+        "vanillaValues": [
+            ""
+        ]
+    },
+    "Chop": {
+        "vanillaValues": [
+            ""
+        ]
+    },
+    "ChopTree": {
+        "vanillaValues": [
+            ""
+        ]
+    },
+    "ClimbDone": {
+        "vanillaValues": [
+            ""
+        ]
+    },
+    "ClimbWindowObstacle": {
+        "vanillaValues": [
+            ""
+        ]
+    },
+    "Climbed": {
+        "vanillaValues": [
+            ""
+        ]
+    },
+    "Collide": {
+        "vanillaValues": [
+            ""
+        ]
+    },
+    "DamageWhileInTrees": {
+        "vanillaValues": [
+            ""
+        ]
+    },
+    "Death": {
+        "vanillaValues": [
+            ""
+        ]
+    },
+    "DeathSound": {
+        "vanillaValues": [
+            ""
+        ]
+    },
+    "Defend": {
+        "vanillaValues": [
+            ""
+        ]
+    },
+    "DepositInContainer": {
+        "vanillaValues": [
+            ""
+        ]
+    },
+    "DoDeath": {
+        "vanillaValues": [
+            "true"
+        ]
+    },
+    "EatBody": {
+        "vanillaValues": [
+            ""
+        ]
+    },
+    "EmoteFinishing": {
+        "vanillaValues": [
+            ""
+        ]
+    },
+    "EmoteLooped": {
+        "vanillaValues": [
+            ""
+        ]
+    },
+    "ExtFinishing": {
+        "vanillaValues": [
+            ""
+        ]
+    },
+    "FallOnFront": {
+        "vanillaValues": [
+            "false",
+            "true",
+            "TRUE"
+        ]
+    },
+    "FallenOnKnees": {
+        "vanillaValues": [
+            ""
         ]
     },
     "FlagWhileAlive": {
@@ -40,12 +152,21 @@
             "hideEquippedHandR",
             "isAnimatingBackwards",
             "bMoving",
+            "isRendered=false",
             "GrappleGrabAnim",
             "BlockMovement",
             "$GrappledTarget.grappledThrownIntoContainer",
+            "grappledThrownIntoContainer",
+            "grappledThrownOutWindow",
+            "grappledThrownOverFence",
             "$GrappledTarget.grappledThrownOutWindow",
             "$GrappledTarget.grappledThrownOverFence",
             "GrappleThrowIntoContainer",
+            "ClimbContainerStarted",
+            "ClimbWindowStarted",
+            "TransitioningThroughWindow",
+            "ClimbFenceStarted",
+            "TransitioningThroughFence",
             "GrappleThrowOutWindow",
             "GrappleThrowOverFence"
         ]
@@ -82,9 +203,47 @@
             "SighSad,SighReliefed,SighBored"
         ]
     },
+    "InsertBullet": {
+        "vanillaValues": [
+            ""
+        ]
+    },
     "InsertBulletSound": {
         "vanillaValues": [
             "MagazineInsertAmmo"
+        ]
+    },
+    "IsAlmostUp": {
+        "vanillaValues": [
+            ""
+        ]
+    },
+    "KilledByAttacker": {
+        "vanillaValues": [
+            ""
+        ]
+    },
+    "KnockDown": {
+        "vanillaValues": [
+            "false",
+            "true",
+            ""
+        ]
+    },
+    "OnBedStarted": {
+        "vanillaValues": [
+            ""
+        ]
+    },
+    "OnFloor": {
+        "vanillaValues": [
+            "true",
+            "false"
+        ]
+    },
+    "PageFlip": {
+        "vanillaValues": [
+            ""
         ]
     },
     "PistolWhipAnim": {
@@ -92,9 +251,36 @@
             "TRUE"
         ]
     },
+    "PlayActionSound": {
+        "vanillaValues": [
+            ""
+        ]
+    },
+    "PlayBreedSound": {
+        "vanillaValues": [
+            "fight",
+            "attack",
+            "walk",
+            "walkBack",
+            "walkFront",
+            "fallover",
+            "pain",
+            "idle_peck",
+            "grooming",
+            "idle_fly",
+            "scratching",
+            "petting",
+            "run"
+        ]
+    },
     "PlayCollideSound": {
         "vanillaValues": [
             "TripOverObstacle"
+        ]
+    },
+    "PlayDeathSound": {
+        "vanillaValues": [
+            ""
         ]
     },
     "PlayFenceSound": {
@@ -102,8 +288,14 @@
             "ClimbOverFenceLow",
             "ClimbOverFenceHighFail",
             "ClimbOverFenceHighStart",
+            "ZombieTrip",
             "ClimbOverFenceHighStruggle",
             "ClimbOverFenceHighSuccess"
+        ]
+    },
+    "PlayHitSound": {
+        "vanillaValues": [
+            ""
         ]
     },
     "PlayNotchedPlankSound": {
@@ -116,21 +308,37 @@
             "ShaveRazor"
         ]
     },
+    "PlaySitDownSound": {
+        "vanillaValues": [
+            ""
+        ]
+    },
     "PlaySound": {
+        "description": "Used to play a specific [sound](https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/sound.html).",
         "vanillaValues": [
             "LureAnimal",
+            "AnimalFoleyChickenFight",
             "Hammering",
             "FallLight",
             "LandLight",
+            "AnimalFoleyChickenDeath",
             "BodyHitGround",
+            "HitObjectWithSledgehammer",
+            "ZombieCrawlLungeSwing",
             "CraftMineralDepositHit",
+            "AnimalFoleyChickenPain",
             "LandDeathFromFall",
             "LandHeavy",
             "LandHeavyFromFall",
             "CorpseDropByLegs",
             "CorpseGrabByLegs",
+            "CorpseAdjustGrip",
             "CorpseDropByArms",
             "CorpseGrabByArms",
+            "CorpseThrowIntoContainer",
+            "CorpseLandInContainer",
+            "CorpseThrowOutWindow",
+            "CorpseLand",
             "SurfaceSitDown",
             "Smoke",
             "ClimbThroughWindow",
@@ -145,12 +353,28 @@
             "EmoteClapping"
         ]
     },
+    "PlaySwingSound": {
+        "vanillaValues": [
+            ""
+        ]
+    },
     "PlayTripSound": {
         "vanillaValues": [
             "TripOverObstacle"
         ]
     },
+    "PlayWashSound": {
+        "vanillaValues": [
+            ""
+        ]
+    },
+    "PlayWindowSound": {
+        "vanillaValues": [
+            "ZombieTrip"
+        ]
+    },
     "PlayerVoiceSound": {
+        "description": "",
         "vanillaValues": [
             "MeleeAttack",
             "LureTsk",
@@ -171,9 +395,29 @@
             "PainFromRunIntoWall"
         ]
     },
+    "PushAwayZombie": {
+        "vanillaValues": [
+            ""
+        ]
+    },
+    "ReanimateAnimFinishing": {
+        "vanillaValues": [
+            ""
+        ]
+    },
+    "RemoveBullet": {
+        "vanillaValues": [
+            ""
+        ]
+    },
     "RemoveBulletSound": {
         "vanillaValues": [
             "MagazineEjectAmmo"
+        ]
+    },
+    "SetAttackOutcome": {
+        "vanillaValues": [
+            ""
         ]
     },
     "SetCollidable": {
@@ -188,6 +432,17 @@
             "5"
         ]
     },
+    "SetOnFloor": {
+        "vanillaValues": [
+            "true",
+            "false"
+        ]
+    },
+    "SetOnfloor": {
+        "vanillaValues": [
+            "true"
+        ]
+    },
     "SetSharedGrappleType": {
         "vanillaValues": [
             "BwdDragLegs",
@@ -196,9 +451,17 @@
             "BwdDragHead"
         ]
     },
+    "SetState": {
+        "vanillaValues": [
+            "",
+            "GettingUp",
+            "Attack"
+        ]
+    },
     "SetVariable": {
         "vanillaValues": [
             "ZombieHitReaction=HeadLeft",
+            "ZombieHitReaction=Shot",
             "ClimbWindowFinished=true",
             "FitnessFinished=TRUE",
             "hideEquippedHandL=true",
@@ -208,19 +471,30 @@
             "ZombieHitReaction=Chainsaw",
             "ClimbFenceFinished=true",
             "ClimbFenceStarted=true",
+            "fallOnFront=true",
+            "fallOnFront=false",
+            "fallOnFront=FALSE",
+            "ZombieBiteStarted=true",
+            "PlayerHitReaction=CrawlerBite",
             "bAnimEnd=TRUE",
             "BumpDone=TRUE",
+            "ExitAnimationFinished=true",
+            "SwitchSeatAnimationFinished=true",
+            "EnterAnimationFinished=true",
             "ClimbWindowEnd=true",
-            "ZombieHitReaction=Shot",
+            "BlockWindow=false",
+            "ZombieBiteDone=true",
             "ShotDone=true",
             "ShotDone=false",
+            "isRendered=true",
+            "EatingStarted=true",
             "KnifeCritStarted=true",
             "ZombieHitReaction=Uppercut",
             "bLandAnimFinished=true",
             "bOnFloor=true",
-            "fallOnFront=true",
             "bKnockedDown=true",
             "bGetUpFromFall=true",
+            "BumpAnimFinished=true",
             "$GrappledTarget.bOnFloor=false",
             "$GrappledTarget.fallOnFront=true",
             "$GrappledTarget.fallOnFront=false",
@@ -232,17 +506,21 @@
             "milkAnim=SheepLLoop",
             "milkAnim=SheepRLoop",
             "AttackAnim=FALSE",
+            "ReanimateAnim=true",
             "ExerciseStarted=TRUE",
             "SatChairStarted=true",
             "SitGroundAnim=WarmHands",
             "requiresSlowIdleBlend=false",
             "ZombieHitReaction=HitSpearDeath1",
             "ZombieHitReaction=HeadRight",
+            "SprinterTripped=TRUE",
             "ClimbWindowStarted=true",
+            "BlockWindow=true",
             "ZombieHitReaction=Floor",
             "ClimbFenceStruggle=false",
             "ClimbFenceReadyToRun=true",
             "ClimbFenceReadyToRun=false",
+            "PlayerHitReaction=Bite",
             "isAnimatingBackwards=false",
             "isTurningAround=false"
         ]
@@ -253,15 +531,73 @@
             "FALSE"
         ]
     },
+    "SitGroundStarted": {
+        "vanillaValues": [
+            ""
+        ]
+    },
+    "SitOnFurnitureStarted": {
+        "vanillaValues": [
+            ""
+        ]
+    },
+    "SplatBlood": {
+        "vanillaValues": [
+            ""
+        ]
+    },
+    "StartActionAnim": {
+        "vanillaValues": [
+            ""
+        ]
+    },
+    "StartCrawling": {
+        "vanillaValues": [
+            ""
+        ]
+    },
     "StompAnim": {
         "vanillaValues": [
             "true",
             "false"
         ]
     },
+    "ThumpFrame": {
+        "description": "Used to make a zombie thump on a vehicle or a structure. The `m_ParameterValue` doesn't seem to do anything.",
+        "vanillaValues": [
+            ""
+        ]
+    },
     "TurnAround_FlipSkeleton": {
         "vanillaValues": [
             "Bip01"
+        ]
+    },
+    "TurnComplete": {
+        "vanillaValues": [
+            "left",
+            "right"
+        ]
+    },
+    "TurnSome": {
+        "vanillaValues": [
+            "left",
+            "right"
+        ]
+    },
+    "VaultOverStarted": {
+        "vanillaValues": [
+            ""
+        ]
+    },
+    "VaultSprintFallLanded": {
+        "vanillaValues": [
+            ""
+        ]
+    },
+    "WeaponEmptyCheck": {
+        "vanillaValues": [
+            ""
         ]
     },
     "WindowAnimLooped": {
@@ -272,9 +608,65 @@
             "struggle"
         ]
     },
+    "WindowCloseAttempt": {
+        "vanillaValues": [
+            ""
+        ]
+    },
+    "WindowCloseSuccess": {
+        "vanillaValues": [
+            ""
+        ]
+    },
+    "WindowOpenAttempt": {
+        "vanillaValues": [
+            ""
+        ]
+    },
+    "WindowOpenSuccess": {
+        "vanillaValues": [
+            ""
+        ]
+    },
+    "WindowStruggleSound": {
+        "vanillaValues": [
+            ""
+        ]
+    },
+    "attachConnect": {
+        "vanillaValues": [
+            ""
+        ]
+    },
     "changeWeaponSprite": {
         "vanillaValues": [
-            "ShotgunDoubleBarrel_OPEN"
+            "ShotgunDoubleBarrel_OPEN",
+            "original"
+        ]
+    },
+    "footstep": {
+        "vanillaValues": [
+            "walk"
+        ]
+    },
+    "idleActionEnd": {
+        "vanillaValues": [
+            ""
+        ]
+    },
+    "loadFinished": {
+        "vanillaValues": [
+            ""
+        ]
+    },
+    "pettingFinished": {
+        "vanillaValues": [
+            ""
+        ]
+    },
+    "playClickSound": {
+        "vanillaValues": [
+            ""
         ]
     },
     "playReloadSound": {
@@ -283,9 +675,19 @@
             "insertAmmoStart"
         ]
     },
+    "rackBullet": {
+        "vanillaValues": [
+            ""
+        ]
+    },
     "setSitOnGround": {
         "vanillaValues": [
             "TRUE"
+        ]
+    },
+    "unloadFinished": {
+        "vanillaValues": [
+            ""
         ]
     }
 }

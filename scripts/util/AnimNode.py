@@ -9,7 +9,7 @@ class AnimNode(StrEnum):
 
 class _Element(StrEnum):
     @classmethod
-    def get_tag(cls, tag: str) -> str | None:
+    def get_tag(cls, tag: str) -> "_Element | None":
         """Checks if the provided tag is a valid element of the enum."""
         for element in cls:
             if tag == element.value:

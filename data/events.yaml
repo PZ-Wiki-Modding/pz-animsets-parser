@@ -1,3 +1,51 @@
+"":
+  description: |-
+    Only used when extending another AnimNode, the event name is removed since it references the extended file original event from the placement of the tag in the file. 
+PlaySound:
+  description: |-
+    Used to play a specific [sound](https://pz-wiki-modding.github.io/PZ-API-Docs/scripts/sound.html).
+PlayerVoiceSound:
+  description: |-
+    Plays a character sound using the voice system which allows users to customize voices on character creation.
+
+    Below is a list of player voices retrieved from the game files, but there might be more available:
+    - `ApplyBandage`
+    - `ClimbWindow`
+    - `CorpseDragging`
+    - `CorpseHighEffort`
+    - `CorpseLowEffort`
+    - `Cough`
+    - `DeathAlone`
+    - `DeathEaten`
+    - `DeathEaten`
+    - `DeathFall`
+    - `Exercise`
+    - `FreezeShiver`
+    - `JumpHigh`
+    - `JumpLow`
+    - `LureCmon`
+    - `LureTsk`
+    - `MeleeAttack`
+    - `MeleeAttackHeavy`
+    - `MeleeShove`
+    - `MeleeStab`
+    - `MeleeStomp`
+    - `MuffledCough`
+    - `PainFromBite`
+    - `PainFromFallHigh`
+    - `PainFromFallLow`
+    - `PainFromGlassCut`
+    - `PainFromRunIntoWall`
+    - `PainFromScratch`
+    - `PainMoodle`
+    - `PainfromLacerate`
+    - `SighBored`
+    - `SighReliefed`
+    - `SighSad`
+    - `Smoke`
+    - `SneezeHeavy`
+    - `SneezeHeavy`
+    - `SneezeLight`
 ThumpFrame:
   description: |-
-    Used to make a zombie thump on a vehicle or a structure.
+    Used to make a zombie thump on a vehicle or a structure. The `m_ParameterValue` doesn't seem to do anything.

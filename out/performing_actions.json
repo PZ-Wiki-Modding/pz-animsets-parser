@@ -24,6 +24,14 @@
         "file": "AttachItem_Back.xml"
     },
     {
+        "action": "AttachItem",
+        "file": "AttachItem_Back.xml"
+    },
+    {
+        "action": "Bandage",
+        "file": "Bandage.xml"
+    },
+    {
         "action": "Bandage",
         "file": "Bandage.xml"
     },
@@ -34,6 +42,10 @@
     {
         "action": "BlowTorch",
         "file": "BlowTorch.xml"
+    },
+    {
+        "action": "Build",
+        "file": "Build.xml"
     },
     {
         "action": "Build",
@@ -56,8 +68,16 @@
         "file": "chop_tree.xml"
     },
     {
+        "action": "chop_tree",
+        "file": "chop_tree.xml"
+    },
+    {
         "action": "ChoppingBlock_Hammer",
         "file": "ChoppingBlock_Hammer.xml"
+    },
+    {
+        "action": "Craft",
+        "file": "Craft.xml"
     },
     {
         "action": "Craft",
@@ -108,8 +128,20 @@
         "file": "Destroy.xml"
     },
     {
+        "action": "Destroy",
+        "file": "Destroy.xml"
+    },
+    {
         "action": "Dig",
         "file": "Dig.xml"
+    },
+    {
+        "action": "Dig",
+        "file": "Dig.xml"
+    },
+    {
+        "action": "disassemble",
+        "file": "disassemble.xml"
     },
     {
         "action": "disassemble",
@@ -128,12 +160,20 @@
         "file": "DrinkBottle.xml"
     },
     {
+        "action": "drink",
+        "file": "DrinkBottle.xml"
+    },
+    {
         "action": "drink_tap",
         "file": "DrinkTapWater.xml"
     },
     {
         "action": "DropWhileMoving",
         "file": "DropWhileMoving.xml"
+    },
+    {
+        "action": "eat",
+        "file": "Eat.xml"
     },
     {
         "action": "eat",
@@ -168,6 +208,10 @@
         "file": "InsertBullets.xml"
     },
     {
+        "action": "InsertBullets",
+        "file": "InsertBullets.xml"
+    },
+    {
         "action": "Knitting",
         "file": "Knitting.xml"
     },
@@ -185,7 +229,19 @@
     },
     {
         "action": "Reload",
+        "file": "LoadDblBarrel.xml"
+    },
+    {
+        "action": "Reload",
         "file": "LoadHandgun.xml"
+    },
+    {
+        "action": "Reload",
+        "file": "LoadHandgun.xml"
+    },
+    {
+        "action": "Reload",
+        "file": "LoadLeverAction.xml"
     },
     {
         "action": "Reload",
@@ -197,11 +253,27 @@
     },
     {
         "action": "Reload",
+        "file": "LoadRevolver.xml"
+    },
+    {
+        "action": "Reload",
+        "file": "LoadRifle.xml"
+    },
+    {
+        "action": "Reload",
         "file": "LoadRifle.xml"
     },
     {
         "action": "Reload",
         "file": "LoadRifleNoMag.xml"
+    },
+    {
+        "action": "Reload",
+        "file": "LoadRifleNoMag.xml"
+    },
+    {
+        "action": "Reload",
+        "file": "LoadShotgun.xml"
     },
     {
         "action": "Reload",
@@ -316,8 +388,16 @@
         "file": "painting.xml"
     },
     {
+        "action": "paint",
+        "file": "painting.xml"
+    },
+    {
         "action": "PlaceAmmoInBox",
         "file": "PlaceAmmoInBox.xml"
+    },
+    {
+        "action": "pour",
+        "file": "Pour.xml"
     },
     {
         "action": "pour",
@@ -330,6 +410,10 @@
     {
         "action": "Rake",
         "file": "Rake.xml"
+    },
+    {
+        "action": "read",
+        "file": "reading.xml"
     },
     {
         "action": "read",
@@ -352,12 +436,20 @@
         "file": "RemoveBullets.xml"
     },
     {
+        "action": "RemoveBullets",
+        "file": "RemoveBullets.xml"
+    },
+    {
         "action": "RemoveBush",
         "file": "RemoveBush.xml"
     },
     {
         "action": "RemoveCurtain",
         "file": "RemoveCurtain.xml"
+    },
+    {
+        "action": "RipSheets",
+        "file": "RipSheets.xml"
     },
     {
         "action": "RipSheets",
@@ -432,6 +524,10 @@
         "file": "Shave.xml"
     },
     {
+        "action": "Shave",
+        "file": "Shave.xml"
+    },
+    {
         "action": "Shear",
         "file": "Shear.xml"
     },
@@ -460,12 +556,20 @@
         "file": "TakePills.xml"
     },
     {
+        "action": "TakePills",
+        "file": "TakePills.xml"
+    },
+    {
         "action": "TanLeatherBarrel",
         "file": "TanLeatherBarrel.xml"
     },
     {
         "action": "Threshing",
         "file": "Threshing.xml"
+    },
+    {
+        "action": "TransferItemOnSelf",
+        "file": "TransferItemOnSelf.xml"
     },
     {
         "action": "TransferItemOnSelf",

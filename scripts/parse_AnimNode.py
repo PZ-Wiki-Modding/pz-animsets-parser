@@ -3,7 +3,7 @@ Parse the media/AnimSets/player/actions files to extract available actions
 to use in the API or Scripts
 """
 
-import os, json
+import os, json, yaml
 from pathlib import Path
 import xml.etree.ElementTree as ET
 
@@ -15,15 +15,28 @@ OUTPUT_ACTIONS = Path("out/performing_actions.json")
 OUTPUT_CONDITIONS = Path("out/conditions.json")
 OUTPUT_EVENTS = Path("out/events.json")
 
+INPUT_DATA = Path("data")
+
+# values if None
+_default_values = {
+    EventElement.NAME: "",
+    EventElement.VALUE: "",
+}
+
 def get_elements(child: ET.Element, element_class) -> dict[str, str]:
     elements = {}
+    is_test = False
     for subchild in child:
         tag = subchild.tag
         elementTag = element_class.get_tag(tag)
         if elementTag is None:
             print(f"Warning: Unknown element tag '{tag}' in file {child.tag}. Skipping this element.")
             continue
-        elements[elementTag] = subchild.text
+        text = subchild.text
+        if text is None and elementTag in _default_values:
+            text = _default_values[elementTag]
+        elements[elementTag] = text
+
     return elements
 
 def get_extends_path(action_file: Path, root: ET.Element) -> Path | None:
@@ -44,7 +57,11 @@ def get_action(action_file) -> dict[str, str] | None:
 	</m_Conditions>
     ```
     """
-    tree = ET.parse(action_file)
+    try:
+        tree = ET.parse(action_file)
+    except ET.ParseError as e:
+        print(f"Error parsing XML file {action_file}: {e}")
+        return None
     root = tree.getroot()
     extends_path = get_extends_path(action_file, root)
 
@@ -83,8 +100,22 @@ def get_action(action_file) -> dict[str, str] | None:
 
     return final_elements
 
+def retrieve_extra_data(output_file: Path, data: dict):
+    extra_data_file = INPUT_DATA / (output_file.stem + ".yaml")
+    if not extra_data_file.is_file():
+        return
+    print(f"Retrieving extra data from {extra_data_file}")
+    with open(extra_data_file, "r") as f:
+        extra_data = yaml.safe_load(f)
+
+    for key, value in extra_data.items():
+        if key not in data:
+            raise KeyError(f"Key '{key}' from extra data file {extra_data_file} not found in main data.")
+        else:
+            data[key].update(value)
+
 def main():
-    animsets_path = AnimSets.get_player_animset_path()
+    animsets_path = AnimSets.get_animsets_path()
 
     actions_path = animsets_path# / "actions"
     if not actions_path.is_dir():
@@ -105,7 +136,11 @@ def main():
             })
 
         # parse conditions in general
-        tree = ET.parse(action_file)
+        try:
+            tree = ET.parse(action_file)
+        except ET.ParseError as e:
+            print(f"Error parsing XML file {action_file}: {e}")
+            continue
         root = tree.getroot()
 
         for child in root:
@@ -136,15 +171,16 @@ def main():
                 if value not in vanillaValues:
                     vanillaValues.append(value)
 
+    to_out = {
+        OUTPUT_ACTIONS: out_actions,
+        OUTPUT_CONDITIONS: out_conditions,
+        OUTPUT_EVENTS: out_events
+    }
 
-    with open(OUTPUT_ACTIONS, "w") as f:
-        json.dump(out_actions, f, indent=4, sort_keys=True)
-
-    with open(OUTPUT_CONDITIONS, "w") as f:
-        json.dump(out_conditions, f, indent=4, sort_keys=True)
-
-    with open(OUTPUT_EVENTS, "w") as f:
-        json.dump(out_events, f, indent=4, sort_keys=True)
+    for output_file, data in to_out.items():
+        retrieve_extra_data(output_file, data)
+        with open(output_file, "w") as f:
+            json.dump(data, f, indent=4, sort_keys=True)
 
 if __name__ == "__main__":
     main()
