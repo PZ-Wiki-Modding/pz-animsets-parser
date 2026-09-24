@@ -374,7 +374,7 @@
         ]
     },
     "PlayerVoiceSound": {
-        "description": "",
+        "description": "Plays a character sound using the voice system which allows users to customize voices on character creation.\n\nBelow is a list of player voices retrieved from the game files, but there might be more available:\n- `ApplyBandage`\n- `ClimbWindow`\n- `CorpseDragging`\n- `CorpseHighEffort`\n- `CorpseLowEffort`\n- `Cough`\n- `DeathAlone`\n- `DeathEaten`\n- `DeathEaten`\n- `DeathFall`\n- `Exercise`\n- `FreezeShiver`\n- `JumpHigh`\n- `JumpLow`\n- `LureCmon`\n- `LureTsk`\n- `MeleeAttack`\n- `MeleeAttackHeavy`\n- `MeleeShove`\n- `MeleeStab`\n- `MeleeStomp`\n- `MuffledCough`\n- `PainFromBite`\n- `PainFromFallHigh`\n- `PainFromFallLow`\n- `PainFromGlassCut`\n- `PainFromRunIntoWall`\n- `PainFromScratch`\n- `PainMoodle`\n- `PainfromLacerate`\n- `SighBored`\n- `SighReliefed`\n- `SighSad`\n- `Smoke`\n- `SneezeHeavy`\n- `SneezeHeavy`\n- `SneezeLight`",
         "vanillaValues": [
             "MeleeAttack",
             "LureTsk",
