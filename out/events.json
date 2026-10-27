@@ -128,6 +128,11 @@
             ""
         ]
     },
+    "EventClimbLadderStop": {
+        "vanillaValues": [
+            ""
+        ]
+    },
     "ExtFinishing": {
         "vanillaValues": [
             ""
@@ -173,12 +178,90 @@
     },
     "Footstep": {
         "vanillaValues": [
+            "",
             "run",
             "sprint",
             "walk",
             "sneak_run",
             "sneak_walk",
             "strafe"
+        ]
+    },
+    "ForceOpenAttempt": {
+        "vanillaValues": [
+            ""
+        ]
+    },
+    "ForceOpenDoorLeftAnimLooped": {
+        "vanillaValues": [
+            "fail",
+            "start",
+            "success",
+            "struggle"
+        ]
+    },
+    "ForceOpenDoorLeftStruggleSound": {
+        "vanillaValues": [
+            ""
+        ]
+    },
+    "ForceOpenDoorLeftSuccess": {
+        "vanillaValues": [
+            ""
+        ]
+    },
+    "ForceOpenDoorRightAnimLooped": {
+        "vanillaValues": [
+            "fail",
+            "start",
+            "success",
+            "struggle"
+        ]
+    },
+    "ForceOpenDoorRightStruggleSound": {
+        "vanillaValues": [
+            ""
+        ]
+    },
+    "ForceOpenDoorRightSuccess": {
+        "vanillaValues": [
+            ""
+        ]
+    },
+    "ForceOpenGarageDoorAnimLooped": {
+        "vanillaValues": [
+            "fail",
+            "start",
+            "success",
+            "struggle"
+        ]
+    },
+    "ForceOpenGarageDoorStruggleSound": {
+        "vanillaValues": [
+            ""
+        ]
+    },
+    "ForceOpenGarageDoorSuccess": {
+        "vanillaValues": [
+            ""
+        ]
+    },
+    "ForceOpenWindowAnimLooped": {
+        "vanillaValues": [
+            "fail",
+            "start",
+            "success",
+            "struggle"
+        ]
+    },
+    "ForceOpenWindowStruggleSound": {
+        "vanillaValues": [
+            ""
+        ]
+    },
+    "ForceOpenWindowSuccess": {
+        "vanillaValues": [
+            ""
         ]
     },
     "GrappleGrabCollisionCheck": {
@@ -298,6 +381,11 @@
             ""
         ]
     },
+    "PlayLadderFootstep": {
+        "vanillaValues": [
+            ""
+        ]
+    },
     "PlayNotchedPlankSound": {
         "vanillaValues": [
             "MakeFireNotchedPlank"
@@ -320,6 +408,7 @@
             "AnimalFoleyChickenFight",
             "Hammering",
             "FallLight",
+            "ExerciseBurpees",
             "LandLight",
             "AnimalFoleyChickenDeath",
             "BodyHitGround",
@@ -471,6 +560,8 @@
             "ZombieHitReaction=Chainsaw",
             "ClimbFenceFinished=true",
             "ClimbFenceStarted=true",
+            "climbLadderLoop=true",
+            "ladderMoveDown=true",
             "fallOnFront=true",
             "fallOnFront=false",
             "fallOnFront=FALSE",

@@ -306,6 +306,34 @@
             "sniff"
         ]
     },
+    "ForceOpenDoorLeftOutcome": {
+        "vanillaValues": [
+            "fail",
+            "success",
+            "struggle"
+        ]
+    },
+    "ForceOpenDoorRightOutcome": {
+        "vanillaValues": [
+            "fail",
+            "success",
+            "struggle"
+        ]
+    },
+    "ForceOpenGarageDoorOutcome": {
+        "vanillaValues": [
+            "fail",
+            "success",
+            "struggle"
+        ]
+    },
+    "ForceOpenWindowOutcome": {
+        "vanillaValues": [
+            "fail",
+            "success",
+            "struggle"
+        ]
+    },
     "FromBehind": {
         "vanillaValues": [
             "false",
@@ -934,6 +962,17 @@
             "false"
         ]
     },
+    "climbLadderEnd": {
+        "vanillaValues": [
+            "true"
+        ]
+    },
+    "climbLadderLoop": {
+        "vanillaValues": [
+            "true",
+            "false"
+        ]
+    },
     "eatingAnim": {
         "vanillaValues": [
             "eat1",
@@ -1113,6 +1152,13 @@
     "isturning": {
         "vanillaValues": [
             "false"
+        ]
+    },
+    "ladderDirection": {
+        "vanillaValues": [
+            "Down",
+            "Idle",
+            "Up"
         ]
     },
     "milkAnim": {
